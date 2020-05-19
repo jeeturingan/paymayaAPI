@@ -1,0 +1,9 @@
+{
+  "Name":  "paymayAPI",
+  "Projects" :  {
+    "WebApi": "paymayAPI.Api",
+    "Application": "paymayAPI.Application",
+    "ApplicationUnitTest": "paymayAPI.ApplicationUnitTest",
+    "ServicesUnitTest": "paymayAPI.ServicesUnitTest"
+  }
+}

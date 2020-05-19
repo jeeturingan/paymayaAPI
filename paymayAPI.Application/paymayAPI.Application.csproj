@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\paymayAPI.Persistence\paymayAPI.Persistence.csproj" />
+    <ProjectReference Include="..\paymayAPI.Domain\paymayAPI.Domain.csproj" />
+    <ProjectReference Include="..\paymayAPI.Services\paymayAPI.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="FluentValidation" Version="8.6.2" />
+    <PackageReference Include="MediatR" Version="8.0.1" />
+    <PackageReference Include="NJsonSchema" Version="10.1.16" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+</Project>
